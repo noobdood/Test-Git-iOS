@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5F06B1919A7D79200B94448 /* YupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F06B1819A7D79200B94448 /* YupTest.m */; };
 		D5FE660A1999344F00258E9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FE66091999344F00258E9F /* Foundation.framework */; };
 		D5FE660C1999344F00258E9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FE660B1999344F00258E9F /* CoreGraphics.framework */; };
 		D5FE660E1999344F00258E9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FE660D1999344F00258E9F /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5F06B1719A7D79200B94448 /* YupTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YupTest.h; sourceTree = "<group>"; };
+		D5F06B1819A7D79200B94448 /* YupTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YupTest.m; sourceTree = "<group>"; };
 		D5FE66061999344F00258E9F /* Control Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Control Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FE66091999344F00258E9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5FE660B1999344F00258E9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				D5FE661B1999345000258E9F /* Main.storyboard */,
 				D5FE661E1999345000258E9F /* YupViewController.h */,
 				D5FE661F1999345000258E9F /* YupViewController.m */,
+				D5F06B1719A7D79200B94448 /* YupTest.h */,
+				D5F06B1819A7D79200B94448 /* YupTest.m */,
 				D5FE66211999345000258E9F /* Images.xcassets */,
 				D5FE66101999344F00258E9F /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				D5FE66201999345000258E9F /* YupViewController.m in Sources */,
 				D5FE66161999344F00258E9F /* main.m in Sources */,
+				D5F06B1919A7D79200B94448 /* YupTest.m in Sources */,
 				D5FE661A1999345000258E9F /* YupAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				D5FE663A1999345000258E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5FE663B1999345000258E9F /* Build configuration list for PBXNativeTarget "Control FlowTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				D5FE663D1999345000258E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
